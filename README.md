@@ -194,13 +194,6 @@ POST /api/generate-plan
 ## Author
 
 **Ravikant Dhakad**
-
-GitHub:
-https://github.com/RavikantDhakad01
-
-LinkedIn:
-(Add your LinkedIn profile)
-
 ---
 
 ⭐ If you like this project, consider giving it a star!
