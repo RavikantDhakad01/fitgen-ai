@@ -4,7 +4,6 @@ import PlanCard from '../components/PlanCard.jsx';
 import EmptyPlanState from '../components/EmptyPlanState.jsx';
 import Button from '../components/Button.jsx';
 import { generatePlanPdf } from '../utils/generatePlanPdf.js';
-import Footer from '../components/Footer.jsx';
 
 const ICONS = {
   bmi: (
@@ -63,7 +62,6 @@ function Plan() {
       <div className="min-h-screen bg-white flex flex-col">
         <Navbar />
         <EmptyPlanState />
-        <Footer />
       </div>
     );
   }
@@ -193,7 +191,7 @@ function Plan() {
           )}
         </PlanCard>
       </main>
-      <Footer />
+      
     </div>
   );
 }
